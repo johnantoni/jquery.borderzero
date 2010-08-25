@@ -1,5 +1,9 @@
 super simple, goes around and destroys all those border=1's created inside tables by the affable .NET
 
-$("table[border!='0']").attr("border", "0");
+in mooTools
 
-jQuery required
+  $$('table').set('border', '0');
+
+in jQuery
+
+  $(“table”).attr(“border”, “0″);
